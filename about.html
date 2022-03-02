@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon">
+    <title>About</title>
+    <link href='styles/styles.css' rel="stylesheet">
+    <!-- required meta tag -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS  -->
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body style="background-color: #577590;">
+    <!-- Navbar -->
+    <nav class="navbar fixed-top  navbar-light container-fluid" style=" background-color:#000 ;">
+        <a class="text-white text-decoration-none" href="index.html">
+            <i class="bi bi-house-door" style="font-size:26px;"></i>
+        </a>
+
+        <div>
+            <ul class="list-inline">
+                <li class="list-inline-item ">
+                    <a class="text-white text-decoration-none" href="projects.html">
+                        Code
+                    </a>
+                </li>
+                <li class="list-inline-item ">
+                    <a class="text-white text-decoration-none" href="blog.html">
+                        Arts
+                    </a>
+                </li>
+                <li class="list-inline-item ">
+                    <a class="text-white text-decoration-none" href="about.html">
+                        About
+                    </a>
+                </li>
+                <li class="list-inline-item ">
+                    <a class="text-white text-decoration-none" href="contact.html">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- 'About' Heading -->
+
+    <div style="background-color:#577590 ;">
+        <div class="container-fluid  d-flex flex-column justify-content-center text-white text-center" style="height: 650px; ">
+            <div >
+                <div>
+                    <h1 id='text' class="animate__animated animate__fadeInUp display-1"> ABOUT</h1>
+                    <i class="bi bi-person display-1  "></i>
+                </div>
+            </div>
+        </div>
+        <!-- About Me: using Grid & Flex -->
+        <div class='container-fluid text-light row'>
+            <!-- Column 1: Social links & Education -->
+            <div class="text-center col-md-2">
+                <h4 class="lead"> Truc Nguyen </h4>
+                <img class='img-thumbnail rounded-circle w-50' src="assets/profile.jpg">
+                <div class="d-flex justify-content-center gap-4 m-4">
+                    <a href='#' class='text-white'> <i class="bi bi-twitter"></i> </a>
+                    <a href='https://www.linkedin.com/home' class='text-white'> <i class="bi bi-linkedin"></i> </a>
+                    <a href='https://github.com/ttngu119' class='text-white'> <i class="bi bi-github"></i> </a>
+                </div>
+                <hr>
+                <div class="d-flex row row-cols-1">
+                    <span> Education: <span> <br>
+                            <small> Computer Science, B.S. </small>
+                            <small> University New Orleans </small>
+                </div>
+                <hr>
+            </div>
+            <!-- Column 2: Name & Skills -->
+            <div class='bg-dark col-md-10'>
+                <!-- Row 1: Name & Image -->
+                <div class="row">
+                    <div class='col-md-8 col-12'>
+                        <h1>Truc Nguyen</h1>
+                        <p> Hi! I'm an undergraduate Computer Science student at the University of New Orleans.
+                            I have a strong interest in Art and Web Development. My goal is to to efficiently incorporate design into everyday life application</p>
+                    </div>
+                    <div class='col-md-4 d-md-block d-none'>
+                        <img class='img-fluid' src='assets/profile.jpg'>
+                    </div>
+                </div>
+                <!-- Row 2: Skills -->
+                <hr>
+                <h2 class='display-6'>Skills:</h2>
+                <div class="d-flex row row-cols-5">
+                    <img src='assets/icon-java.png'>
+                    <img src='assets/icon-js.png'>
+                    <img src='assets/icon-html5.png'>
+                    <img src='assets/icon-css3.png'>
+                    <img src='assets/icon-react.png'>
+                    <img src='assets/icon-mongodb.png'>
+                    <img src='assets/icon-node.webp'>
+                    <img src='assets/sql.png'>
+                    <img src='assets/bootstrap.png'>
+
+                </div>
+            </div>
+        </div>
+        <script src="scripts/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
