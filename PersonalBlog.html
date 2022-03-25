@@ -1,0 +1,83 @@
+<head>
+
+    <title>Blog</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='styles/styles.css' rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body class="text-light" style="background-color: #e56b6f;">
+    <!--Navbar-->
+    <nav class="navbar fixed-top  navbar-light container-fluid" style=" background-color:#000 ;">
+        <a class="text-white text-decoration-none" href="index.html">
+            <i class="bi bi-house-door" style="font-size:26px;"></i>
+        </a>
+
+        <div>
+            <ul class="list-inline">
+                <li class="list-inline-item ">
+                    <a class="text-white text-decoration-none" href="projects.html">
+                        Code
+                    </a>
+                </li>
+                <li class="list-inline-item ">
+                    <a class="text-white text-decoration-none" href="blog.html">
+                        Blog
+                    </a>
+                </li>
+                <li class="list-inline-item ">
+                    <a class="text-white text-decoration-none" href="about.html">
+                        About
+                    </a>
+                </li>
+                <li class="list-inline-item ">
+                    <a class="text-white text-decoration-none" href="contact.html">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Blog page-->
+    <div class="container mt-4 container-fluid text-center d-flex flex-column justify-content-center text-white"  style="height: 200px; ">
+        <h1 id='text' class="display-2 animate__animated animate__fadeInDown">
+            <i  class="bi bi-chat-dots"></i> Blog
+        </h1>
+        <hr>
+    </div>
+    <!--Carousel -->
+    <div class="carousel slide " data-bs-ride="carousel" data-bs-interval="1000" id="blog-carousel">
+        <!-- Carousel Menu -->
+        <ol class="carousel-indicators">
+            <li data-bs-target="#blog-carousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#blog-carousel" data-bs-slide-to="1"></li>
+        </ol>
+        <!-- Carousel Body -->
+        <div class="carousel-inner text-center">
+            <!-- Slide 1 -->
+            <div class="carousel-item active" id="slide-1">
+                <img class="img-fluid rounded" src="assets/articlePic.jpg" style="height: 100%; width: 80%;">
+                <div class="carousel-caption">
+                    <h5> Recipe App</h5>
+                    <p> Web application that allows users to find, create, and keep recipes in one single place </p>
+                    <button onclick="document.location='articles/ProjectBlogArticle.html'"> Read More </button>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel Controls -->
+        <a class="carousel-control-prev" href="#blog-carousel" role="button" data-bs-slide="prev">
+            <i class="carousel-control-prev-icon"></i>
+        </a>
+        <a class="carousel-control-next" href="#blog-carousel" role="button" data-bs-slide="next">
+            <i class="carousel-control-next-icon"></i>
+        </a>
+        <div>
+            <!--  Bootstrap Bundle with Popper -->
+            <script src="scripts/bootstrap.bundle.min.js"></script>
+</body>
